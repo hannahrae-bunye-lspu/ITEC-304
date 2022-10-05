@@ -1,0 +1,42 @@
+.title{
+    border: 2px #EEEEEE solid;
+    color:#724596;
+    text-align:center;
+    padding:10px;
+}
+.Top{
+	margin-top: 25px;
+}
+.Top, .Middle, .Bottom{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	background-color: black;
+    margin-left: 50px;
+	margin-right: 50px;
+}
+			.h1{
+				color: #5bf0bc;
+			}
+			.h2{
+				color: #9c60db;
+				text-align: center;
+			}
+			.h3{
+				color: #c369ff;
+			}
+			a:link{
+				color: white;
+			}
+			a:visited{
+				color: grey;
+			}
+			a:hover{
+				color: #ff69a0;
+			}
+			a:active{
+				color: mediumpurple;
+			}

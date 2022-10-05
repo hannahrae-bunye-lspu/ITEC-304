@@ -1,0 +1,143 @@
+.title{
+    border:2px #EEEEEE solid;
+    color:#724596;
+    text-align:center;
+    padding:10px;
+}
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+/*OTHER EDITING*/
+.main{
+	background-color: #FFFFFF;
+	font-family: 'Roboto';
+}
+hr.solid {
+	border-top: 1px solid #FFFFFF;
+}
+h2{
+	font-weight: 700;
+	font-size: 72px;
+	line height: 72px;
+	letter-spacing: -1px;
+}
+h4{
+	font-weight: 700;
+	font-size: 48px;
+	line height: 48px;
+	letter-spacing: -.08px;
+}
+h3{
+	font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+}
+.Font1{
+	font-size: 18px;
+}
+.Font2{
+	font-size: 20px;
+}
+.Font3{
+	font-size: 16px;
+}
+.Font4{
+	font-size: 24px;
+}
+.nav li, .NavBar1 li, .info3 li{
+	display: block;
+}
+.info3 li a{
+    padding-left: 15px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-decoration: none;
+}
+.nav li a, .NavBar1 li a{
+    display: inline-block;
+    padding-left: 15px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+}
+.nav li a:hover, .NavBar1 li a:hover, .info3 li a:hover{
+    color: #006AFF;
+}
+button{
+	padding: 0px 24px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button:hover{
+	color: #00D5FF;
+}
+/*PART 1*/
+.Part1 .TitleButton{
+    background-color: #000000;
+}
+.Part1 .ArticleButton{
+    background-color: #FC0E52;
+}
+.Part1 .spacing{
+	margin-top: 50px;
+}
+.Part1 p{
+	margin-top: 150px;
+}
+
+/*PART 2*/
+.Part2 .columnInfo{
+    padding: 25px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+}
+
+/*EXTRA*/
+.pinkBackground{
+    background: #FC0E52;
+    color: #FFFFFF;
+    padding-left: 48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-top: -40px;
+}
+.pinkBackground li a{
+    color: #FFFFFF;
+}
+.pinkBackground .info3 li a:hover{
+    color: #FFFFFF;
+}
+
+/*PART 4*/
+.Part3 img{
+    width: 100%;
+    height: auto;
+}
+
+/*PART 4*/
+.Part4 img{
+    width: 100%;
+    height: auto;
+}
+
+/*PART 5*/
+.Part5 img{
+    width: 100%;
+    height: auto;
+}
+
+/*PART 6*/
+.Part6{
+    background: #000000;
+    color: #FFFFFF;
+    padding: 96px;
+}
+.Part6 img{
+	border:none;
+	border-radius: 100px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"&gt;>
+        <link rel="stylesheet" href="{{ url_for('static', filename= 'css/act1.css')}}">
+    </head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-light">
+	  <div class="container-fluid">
+		<a class="navbar-brand" href="{{url_for('index')}}">Flaskblog</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link active" href="#">Activity 1</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="{{url_for('act2')}}">Activity 2</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="{{url_for('act5')}}">Activity 5</a>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+	<div class="title">
+		<h1>Activity 1</h1>
+		<p><strong>Instruction:</strong> Create a Resume using HTML</p>
+	</div>
+	<div class="container">
+		<div class="Top">
+			<p class="h1">HANNAH RAE BUNYE</p>
+				<img src="{{url_for('static', filename='assets/Hannah Rae Bunye.png')}}" alt="Hannah Rae Bunye" style="height:250px; Width:auto; border: 9px #AF94FF solid;
+">
+				<p>BSIT Student</p>
+				<a href="mailto:hannahrae.bunye@lspu.edu.ph">hannahrae.bunye@lspu.edu.ph</a>
+				<br>
+				<a href="tel:09989591497">09989591497</a>
+		</div>
+
+		<div class="Middle">
+			<h2 class="h2">Profile</h2>
+				<p>My name is Hannah Rae Parungao Bunye and I’m 20 years old. My birthday is December 12, 2001 at Sta. Cruz, Laguna.
+				I live in Paete, Laguna. My parents are Ana P. Bunye and Renato G. Bunye. I have two siblings,
+				my older sister and  my little sister. Their names are Rae Anne P. Bunye and Riana P. Bunye. I graduated elementary in
+				Paete Elementary School and for junior and senior high school is in
+				Paete Science and Business College Inc. I’m currently taking a Bachelor of Science in Information Technology course.</p>
+		</div>
+
+		<div class="Bottom">
+			<h2 class="h2">Education</h2>
+        			 <h3 class="h3">Elementary</h3>
+					  <p>Paete Elementary School</p>
+					  <p>2008 - 2014</p>
+         			<h3 class="h3">Junior High School</h3>
+					  <p>Paete Science and Business College Inc.</p>
+					  <p>2014 - 2018</p>
+         			<h3 class="h3">Senior High School</h3>
+					  <p>Paete Science and Business College Inc.</p>
+					  <p>2018 - 2020</p>
+				 <h3 class="h3">College</h3>
+					  <a href="https://lspu.edu.ph/" target="_blank">Laguna State Polytechnic University</a>
+					  <p>2020 and so on</p>
+		</div>
+	</div>
+	</body>
+	</html>
